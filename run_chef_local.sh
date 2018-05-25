@@ -1,3 +1,3 @@
 #!/bin/bash
 
-chef-client --local-mode hello.rb
+chef-client --local-mode $1
